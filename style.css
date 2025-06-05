@@ -29,6 +29,10 @@ body{
     color: red;
 }
 
+.logo{
+    margin-right: 15px
+}
+
 .invoice h1{
     display: flex;
     justify-content: center;
