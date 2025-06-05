@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 252, 255);
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 594px;
+    width: 420px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.invoice{
+    margin-top: 20px;
+    color: red;
+}
+
+.invoice h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-weight: 450;
+}
+
+.adddress_logo{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.adddress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    /* position: absolute;
+    top: 85PX;
+    left: 327PX; */
+}
+
+.adddress h5, .billto h5, .payment h5{
+    font-weight: 450;
+    color: red;
+}
+
+.date h5{
+    text-align: right;
+}
+
+.adddress p, .billto p, .invoice_no p, .date p, .payment p, .total_bar p{
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.invoice_no p, .date p{
+    text-align: right;
+}
+
+
+
+.logo img{
+    height: 70px;
+    position: absolute;
+    top: 85PX;
+    right: 327PX;
+}
+
+.partition1{
+    background-color: red;
+    margin-left: 15px;
+    height: 1px;
+    width: 93%;
+}
+
+.bill{
+    margin-top: 10px;
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    background-color: red;
+    color: white;
+    font-size: 13px
+}
+
+table {
+    margin-top: 10px;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+  font-size: 11px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffefef;
+}
+
+.footer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.subtotal h5, .money h5, .total h5{
+    font-weight: 500;
+
+}
+
+.payment{   
+    gap: 3px;
+}
+
+.partition2{
+    
+    margin-top: 10px;
+    background-color: red;
+    height: 1px;
+    width: 200px;
+}
+
+.total_bar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.total{
+    text-align: right;
+}
+
+.money{
+    text-align: right;
+}
+
+.singnature{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singnature img{
+    height: 70px;
+    
+
+}
